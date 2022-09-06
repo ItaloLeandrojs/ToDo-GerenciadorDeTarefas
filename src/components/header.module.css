@@ -1,0 +1,6 @@
+.header img {
+    background: var(--gray-700);
+    display: block;
+    justify-content: center;
+    padding: 2.5rem 0rem;
+}
