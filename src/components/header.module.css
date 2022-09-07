@@ -1,6 +1,16 @@
-.header img {
+div {
     background: var(--gray-700);
-    display: block;
+    display: flex;
     justify-content: center;
-    padding: 2.5rem 0rem;
+    padding: 1.25rem 0rem;
+}
+form{
+    width: 100%;
+    background: var(--gray-900);
+    align-items: center;
+    width: 638px;
+    height: 54px;
+    padding: 1.25rem 0;
+
+    
 }

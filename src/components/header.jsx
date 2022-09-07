@@ -6,7 +6,13 @@ console.log(igniteLogo);
 export function Header(){
     return(
         <header className={styles.header}>
-            <img src="/src/img/logo.svg" alt="" />
+        <img src="/src/img/logo.svg" alt="" />
+        <form action="">
+            <textarea 
+            name="addTarefa" 
+            placeholder='Adicionar uma nova tarefa'
+            ></textarea>
+        </form>
         </header>
     )
 }
